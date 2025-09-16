@@ -15,7 +15,7 @@ public class ArrMethod {
 		int arr[] = new int[n];
 		Scanner scanner = new Scanner(System.in);
 		for(int i = 0; i < n ; i++) {
-			System.out.println("Enter "+(i+1)+" element:");2
+			System.out.println("Enter "+(i+1)+" element:");
 			arr[i] = scanner.nextInt();
 		}
 		return arr;
